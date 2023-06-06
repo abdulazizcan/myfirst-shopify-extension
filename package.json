@@ -1,0 +1,36 @@
+{
+<<<<<<< HEAD
+  "name": "byop",
+=======
+  "name": "lucrative-infrastructure-app",
+>>>>>>> a488cb48b870fe3020f5bde13277795c3ca8a518
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "@shopify/app": "3.23.0",
+    "@shopify/cli": "3.23.0"
+  },
+  "author": "alexabbott"
+=======
+    "@shopify/app": "3.46.1",
+    "@shopify/cli": "3.46.1"
+  },
+  "author": "Can",
+  "private": true,
+  "workspaces": [
+    "web",
+    "web/frontend",
+    "extensions/*"
+  ]
+>>>>>>> a488cb48b870fe3020f5bde13277795c3ca8a518
+}

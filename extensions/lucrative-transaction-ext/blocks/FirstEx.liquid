@@ -1,0 +1,26 @@
+<span>Hello World, My name is {{ block.settings.Name }}. From {{ block.settings.From }}!..</span>
+<p>{{ page.title }}</p>
+
+
+
+{% render "app_snippet" %}
+
+{% schema %}
+  {
+    "name": "Hello World",
+    "target": "section",
+    "stylesheet": "app.css",
+    "javascript": "app.js",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "Name",
+        "label": "name:"
+      }, {
+        "type": "textarea",
+        "id": "From",
+        "label": "From?:"
+      }
+    ]
+  }
+{% endschema %}
